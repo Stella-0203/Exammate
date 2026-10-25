@@ -1,0 +1,49 @@
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 环境变量与密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 本地数据库及其临时文件
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+*.db-wal
+*.db-shm
+
+# 用户导入的原始资料及本地生成数据
+# 如果目录中有需要公开的示例文件，之后再单独调整
+data/materials/
+data/uploads/
+
+# IDE 与系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+
+# 本地数据库与测试资料
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/test_materials/
+data/materials/
+
+# 测试生成的缓存
+data/__pycache__/
